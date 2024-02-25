@@ -2,7 +2,6 @@ public class Buku29 {
     String judul, pengarang;
     int halaman, stok, harga;
     
-    
     public Buku29() {
 
     }
@@ -14,6 +13,7 @@ public class Buku29 {
         this.stok = stok;
         harga = har;
     }
+    
     void tampilinformasi() {
         System.out.println("Judul: " + judul);
         System.out.println("Pengarang: " + pengarang);
@@ -29,7 +29,6 @@ public class Buku29 {
         }else {
             System.out.println("Maaf stok habis.");
         }
-       
     }
 
     void restock (int jml) {
@@ -60,4 +59,5 @@ public class Buku29 {
         return hitungHargaTotal(jml) - hitungDiskon(jml);
     }
   
+
     }
